@@ -168,16 +168,16 @@
                     <h2>Configure Windows</h2>
                     <p>Set the <code>JAVA_HOME</code> environment variable:</p>
                     <ol class="mt-minus">
-                        <li>On the Start menu, right click Computer and
-                        select Properties.</li>
-                        <li>At the left panel, click Advanced system
-                        settings.</li>
-                        <li>Go to the Advanced tab and click the Environment
-                        Variables button….</li>
-                        <li>Under System variables, click New….</li>
-                        <li>In the Variable name field, type <code>JAVA_HOME</code>.</li>
-                        <li>In the Variable value field, specify a path to the
-                        installed Java JDK folder and then click OK.</li>
+                        <li>On the <em>Start</em> menu, right click <em>Computer</em> and
+                        select <em>Properties</em>.</li>
+                        <li>At the left panel, click <em>Advanced system
+                                                settings</em>.</li>
+                        <li>Go to the <em>Advanced</em> tab and click the <em>Environment
+                                                Variables button…</em>.</li>
+                        <li>Under <em>System variables</em>, click <em>New…</em>.</li>
+                        <li>In the <em>Variable name</em> field, type <code>JAVA_HOME</code>.</li>
+                        <li>In the <em>Variable value</em> field, specify a path to the
+                        installed Java JDK folder and then click <em>OK</em>.</li>
                     </ol>
                     <p><span class="admonition note"><span class=
                     "first admonition-title">Notice</span> <span>Click the image below to go through all the steps.</span></span></p>
@@ -192,16 +192,16 @@
                     <ol class="mt-minus">
                         <li>On the <em>Start</em> menu, click <em>Control Panel</em> &gt; <em>System
                                                 and Security</em> &gt; <em>Windows Firewall</em> &gt; <em>Advanced settings</em>.</li>
-                        <li>In the left pane of the Windows Firewall with Advanced Security, click Inbound Rules, and then the
-                        right pane, click New Rule.</li>
-                        <li>In the Rule Type window, select Port and then click
-                        Next.</li>
-                        <li>In the Protocol and Ports window, select TCP, then
+                        <li>In the left pane of the Windows Firewall with Advanced Security, click <em>Inbound Rules</em>, and then the
+                        right pane, click <em>New Rule</em>.</li>
+                        <li>In the <em>Rule Type</em> window, select <em>Port</em> and then click
+                        <em>Next</em>.</li>
+                        <li>In the <em>Protocol and Ports</em> window, select <em>TCP</em>, then
                         specify Specific local ports: <code>4200</code>, <code>4300</code>, and then
-                        click Next.</li>
-                        <li>Leave the default settings in the Action and
-                        Profile windows.</li>
-                        <li>In the Name window, specify Name: <code>Crate</code> and click Finish.</li>
+                        click <em>Next</em>.</li>
+                        <li>Leave the default settings in the <em>Action</em> and
+                        <em>Profile</em> windows.</li>
+                        <li>In the <em>Name</em> window, specify Name: <code>Crate</code> and click <em>Finish</em>.</li>
                     </ol>
                     <p><span class="admonition note"><span class=
                     "first admonition-title">Notice</span> <span>Click the image below to go through all the steps.</span></span></p>
@@ -228,17 +228,17 @@
                     <p>Crate ships with an <a href="https://crate.io/docs/connect/admin_ui/">Admin UI</a> that
                     provides an overview of your cluster, nodes, tables and
                     much more.</p>
-                    <p>To Connect to Crate Cluster, insert the following url to your address bar:</p>
+                    <p>To connect to Crate cluster, insert the following url to your address bar:</p>
                     <p><code>http://127.0.0.1:4200/admin</code></p>
                     <p>(where <code>127.0.0.1</code> is a <code>SERVER_IP</code>, the publicly accessible
                     IP address of any node in the Crate cluster, and <code>4200</code> is
                     the Crate port).</p>
                     <p><a href="img/admin_ui.png"><img alt="" src="img/admin_ui_sm.png"></a></p>
                     <h2>Get started with sample data</h2>
-                    <p>In the Admin UI, go to the Get Started tab and proceed with the
+                    <p>In the Admin UI, go to the <em>Get Started</em> tab and proceed with the
                     instructions. As a result you will get a <strong>tweets</strong> table with
                     the latest posts imported from Twitter. It is accessible in
-                    the Tables tab.</p>
+                    the <em>Tables</em> tab.</p>
                     <p><span class="admonition note"><span class=
                     "first admonition-title">Notice</span> <span>Click the image below to go through all the steps.</span></span></p>
                     <p class="changeimg">
@@ -247,7 +247,7 @@
                         <img alt="" src="img/start_3.png">
                     </p>
                     <p>Now, lets make some queries.</p>
-                    <p>Go to the Console tab and type:</p>
+                    <p>Go to the <em>Console</em> tab and type:</p>
                     <div class="codehilite">
                         <pre><code><span class="k">SELECT</span> <span class=
                         "k">text </span><span class="k">FROM</span> <span class=
@@ -256,8 +256,8 @@
                         "p">;</span>
 </code></pre>
                     </div>
-                    <p>Click Execute query.</p>
-                    <p>If the query was written correctly, the operation was
+                    <p>Click <em>Execute query</em>.</p>
+                    <p>If the query was written correctly, the operation will be
                     successful, and the SELECT OK message will be displayed.
                     The resulting table will be displayed in the field below.</p>
                     <p><span class="admonition note"><span class=
@@ -269,7 +269,7 @@
                     <p>Lets try another example. Here you will get a
                     total number of obtained tweets as well as the number of
                     users that were verified.</p>
-                    <p>In the Console tab, type:</p>
+                    <p>In the <em>Console</em> tab, type:</p>
                     <div class="codehilite">
                         <pre><code> <span class="k">SELECT</span> <span class=
                         "k">count</span><span class="n">(*)</span> <span class="k">AS</span> <span class=
@@ -278,7 +278,7 @@
                         "p">;</span>
 </code></pre>
                     </div>
-                    <p>Click Execute query.</p>
+                    <p>Click <em>Execute query</em>.</p>
                     <p><span class="admonition note"><span class=
                     "first admonition-title">Notice</span> <span>Click the image below to go through all the steps.</span></span></p>
                     <p class="changeimg">
